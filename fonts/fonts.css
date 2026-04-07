@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: 'monospacetypewriterregular';
+    src: url('monospacetypewriter-webfont.eot');
+    src: url('monospacetypewriter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('monospacetypewriter-webfont.woff2') format('woff2'),
+         url('monospacetypewriter-webfont.woff') format('woff'),
+         url('monospacetypewriter-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'dotimpactregular';
+    src: url('mpf_dotimpact-webfont.eot');
+    src: url('mpf_dotimpact-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mpf_dotimpact-webfont.woff2') format('woff2'),
+         url('mpf_dotimpact-webfont.woff') format('woff'),
+         url('mpf_dotimpact-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

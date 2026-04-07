@@ -1,0 +1,551 @@
+@media only screen and (max-width: 1600px) {
+    .profile-name h2{
+        font-size: 180px;
+    }
+
+    .video-box{
+          height: 800px;
+    }
+
+    .three-grid .photo-box{
+          height: 550px;
+    }
+
+    .photo-box{
+        height: 620px;
+  }
+
+  .tag_listing ul li{
+      font-size: 30px;
+  }
+
+  .tag_listing {
+    padding-top: 50px;
+}
+
+.page-title-main h4 {
+    font-size: 90px;
+}
+
+.page-title-main h5 {
+    font-size: 90px;
+}
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    nav ul li a{
+        line-height: 25px;
+    font-size: 20px;
+    }
+
+    .profile-name h2{
+           font-size: 140px;
+    }
+
+    .footer h3 {
+        font-size: 18px;
+    }
+
+    .page-title-main h4 {
+        font-size: 80px;
+    }
+
+    .page-title-main h5{
+        font-size: 80px;
+    }
+
+    .gallery-prev, .gallery-next{
+           width: 18px;
+    }
+
+    .tag_listing ul li{
+          font-size: 30px;
+    }
+
+    .tag_listing{
+         padding-top: 35px;
+    }
+
+    .video-box{
+        height: 600px;
+    }
+
+    .three-grid .photo-box{
+        height: 400px;
+    }
+
+
+    .photo-box{
+          height: 500px;
+    }
+
+    .filim-portfolio-content p{
+        font-size: 18px;
+    }
+
+    .illustration-content p{
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .header-inner{
+        min-width: 0;
+        gap: 12px;
+    }
+
+    .logo-main{
+        float: none;
+        flex: 1 1 auto;
+        min-width: 0;
+        max-width: calc(100% - 56px);
+    }
+
+    .logo-main img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .nav-toggle{
+        display: inline-flex !important;
+        flex-shrink: 0;
+        margin-left: auto;
+        position: relative;
+        z-index: 10002;
+    }
+
+    .nav-backdrop{
+        display: block;
+        position: fixed;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.55);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+        z-index: 10000;
+    }
+
+    body.nav-open .nav-backdrop{
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 0.3s ease, visibility 0s linear 0s;
+    }
+
+    body.nav-open{
+        overflow: hidden;
+    }
+
+    nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: min(300px, 88vw);
+        height: 100vh;
+        height: 100dvh;
+        max-height: -webkit-fill-available;
+        margin: 0;
+        padding: 160px 28px 32px;
+        float: none;
+        background-color: #000;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        z-index: 10001;
+        box-sizing: border-box;
+    }
+
+    body.nav-open nav{
+        transform: translateX(0);
+    }
+
+    nav ul{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    nav ul li{
+        margin-left: 0;
+        margin-bottom: 22px;
+    }
+
+    nav ul li:last-child{
+        margin-bottom: 0;
+    }
+
+    nav ul li a{
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    @media (prefers-reduced-motion: reduce){
+        .nav-backdrop,
+        nav{
+            transition: none;
+        }
+
+        body.nav-open .nav-backdrop{
+            transition: none;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.profile-name h2{
+       font-size: 80px;
+       padding-left: 5%;
+}
+
+.word-second {
+    padding-left: 30%;
+}
+
+.word-third {
+    padding-left: 0;
+}
+
+.profile-img {
+    width: 100%;
+}
+
+.profile-name{
+    top: unset;
+    bottom: 50px;
+}
+
+.header{
+   padding: 15px 0;
+}
+
+.main-banner-inner{
+    margin-top: 40px;
+}
+
+.main-banner{
+        align-items: flex-start;
+}
+
+.footer h3 {
+    font-size: 15px;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.gallery-footer .page-title-main{
+    text-align: center;
+    justify-content: center;
+}
+
+.gallery-footer .page-title-main h5{
+    font-size: 80px;
+}
+
+.page-title-main h5
+ {
+    font-size: 40px;
+ }
+
+ .page-title-main.top h4
+ {
+    font-size: 90px;
+ }
+
+ .page-title-main h4 {
+    font-size: 50px;
+ }
+
+ .gallery-prev, .gallery-next {
+    cursor: pointer;
+    width: 16px;
+}
+
+.main-banner{
+    height: calc(100vh - 140px);
+}
+
+.gallery-main {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.gallery-arrow {
+    width: max-content;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.gallery-footer {
+    width: 100%;
+    padding: 15px 0;
+    border-top: 1px solid #D9D9D9;
+    position: static;
+    bottom: 0;
+    background: #000;
+    z-index: 5;
+}
+
+.gallery_box h3 {
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 10px;
+}
+
+.contact_right {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.main-wrapper{
+     padding-top: 30px;
+}
+
+.tag-wrapper{
+      height: calc(100vh - 125px);
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 30px;
+}
+
+ .tag-wrapper  .header-title h5 {
+        font-size: 140px;
+    }
+
+    .tag-wrapper  .header-title h4 {
+        font-size: 140px;
+    }
+
+.tag_listing {
+  padding-top: 0;
+  margin-top: auto;
+}
+
+.contact-footer-inner{
+    flex-wrap: wrap;
+}
+
+    .contact-footer-inner {
+        flex-wrap: wrap;
+        flex-direction: inherit;
+        gap: 10px;
+    }
+
+    .contact-footer-inner a {
+    font-size: 18px;
+    }
+
+    .contact-footer-inner a:nth-child(1){
+        order: 2;
+    }
+
+      .contact-footer-inner a:nth-child(2){
+        order: 3;
+    }
+
+     .contact-footer-inner a:nth-child(3){
+        order: 1;
+        font-size: 23px;
+    }
+
+        .contact_right .page-title-main h5 {
+        font-size: 60px;
+    }
+
+    .contact-footer {
+    width: 100%;
+    padding: 15px 0 20px;
+    }
+
+       .header-title{
+        padding: 0;
+       }
+
+    .header-title h4{
+              font-size: 90px;
+    }
+
+       .header-title h5{
+              font-size: 90px;
+    }
+
+    .tag_listing ul li{
+        font-size: 24px;
+    }
+
+    .portfolio_main{
+        padding: 30px 0 20px;
+    }
+
+    .portfolio_main .page-title-main {
+    justify-content: left;
+    padding-bottom: 20px;
+}
+
+.video-portfolio ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.video-portfolio-banner{
+    margin-bottom: 10px;
+}
+
+.video-box{
+   height: auto;
+}
+
+.mobile{
+    display: block;
+}
+
+.desktop{
+    display: none;
+}
+
+.portfolio-left {
+    width: 100%;
+   
+}
+
+.info-section-left {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+     order: 1;
+}
+
+.info-section-content-inner{
+    row-gap: 40px;
+}
+
+.info-section-right {
+    width: 100%;
+    order: 2;
+
+}
+
+.info-box{
+    width: 100%;
+    order: 3;
+}
+
+.video-portfolio ul.three-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px 5px;
+    margin-bottom: 10px;
+}
+
+.photo-box{
+    height: auto;
+}
+
+.three-grid .photo-box{
+    height: auto;
+}
+
+
+.filim-portfolio-third ul{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.filim-portfolio-content p{
+      font-size: 18px;
+      line-height: 28px;
+}
+
+.illustartion-portfolio ul{
+    gap: 10px;
+}
+
+.illustartion-portfolio {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.illustration-content p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.illustration-content{
+    padding: 10px 10px;
+        gap: 5px;
+}
+
+.illustration-box-content{
+    padding: 10px 10px;
+}
+
+.illustration-box-content p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.gallerySwiper{
+    margin-top: 30px;
+}
+
+.main-banner-inner{
+      min-height: 560px;
+}
+
+.logo-wrap {
+       width: 300px;
+       margin-bottom: 30px;
+}
+
+.page-title-main.tag h5{
+       width: 100%;
+       text-align: right;
+}
+
+}
+
+
+@media only screen and (max-width: 500px) {
+.profile-name{
+    top: unset;
+    bottom: 20px;
+}
+
+.profile-name h2 {
+        padding-left: 0;
+}
+.word-second {
+    padding-left: 36%;
+}
+
+.tag-wrapper .header-title h4 {
+    font-size: 110px;
+}
+
+.tag-wrapper .header-title h5 {
+    font-size: 110px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .profile-name h2 {
+        font-size: 75px;
+        padding-left: 0%;
+    }
+
+    
+}
